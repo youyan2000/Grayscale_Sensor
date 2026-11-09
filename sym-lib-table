@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "ProPrj_灰度传-easyedapro") (type "KiCad") (uri "${KIPRJMOD}/ProPrj_灰度传-easyedapro.kicad_sym") (options "") (descr ""))
+	(lib (name "ME6206A33M3G") (type "KiCad") (uri "${KIPRJMOD}/kicad_api_libs/ME6206A33M3G.kicad_sym") (options "") (descr ""))
+)

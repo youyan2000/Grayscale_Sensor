@@ -1,0 +1,61 @@
+# =====================================================================
+# Grayscale_Sensor —— 只提交：PCB / KiCad 工程 / BOM
+# 保留：
+#   Grayscale_Sensor.kicad_pro / .kicad_sch / .kicad_pcb  (工程 + 原理图 + PCB)
+#   fp-lib-table / sym-lib-table                          (工程用到的库表)
+#   kicad_api_libs/                                       (工程引用的本地库，删掉会报符号/封装丢失)
+#   bom/                                                  (BOM，含交互式 ibom.html)
+# =====================================================================
+
+# ---------- 不提交：KiCad 生成的制造文件 ----------
+# 需要把 Gerber/钻孔也上传时，删掉下面这段即可
+gerber/
+
+# ---------- 不提交：KiCad 本地/临时文件 ----------
+# 本地历史快照（File > Local History 用，体积很大，内含一个 .git）
+.history/
+
+# 自动备份压缩包（KiCad 每次保存都会新增）
+Grayscale_Sensor-backups/
+*-backups/
+
+# 本地用户界面状态（图层可见性、最近路径、缩放位置等，各人不同）
+*.kicad_prl
+
+# 符号/封装库的本地索引缓存
+fp-info-cache
+
+# 保存过程中的临时文件
+_autosave-*
+*.kicad_prl.lck
+~*.lck
+*.lck
+*.bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.tmp
+
+# ---------- 不提交：工具/脚本日志 ----------
+logs/
+*.log
+
+# ---------- 不提交：固件源码（如以后要传，删掉这三行） ----------
+software/
+.settings/
+.metadata/
+
+# ---------- 操作系统 / 编辑器垃圾 ----------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+*.swp
+*~
+
+# ---------- VS Code ----------
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
